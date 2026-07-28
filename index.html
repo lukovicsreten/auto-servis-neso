@@ -3,15 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Šlep Služba Nešo | Šlepovanje 24/7 i Auto Servis</title>
-<meta name="description" content="Šlep Služba Auto Servis Nešo - profesionalno šlepovanje vozila 24 sata, 7 dana u nedelji. Auto servis, dijagnostika, zamena guma, popravka motora i kočnica. Pozovite odmah!">
-<meta name="keywords" content="šlep služba, auto servis, šlepovanje, vučna služba, dijagnostika vozila, zamena guma, popravka motora, popravka kočnica, Nešo">
+<title>Šlep Služba i Auto Servis Nešo Nova Varoš | Šlepovanje 24/7</title>
+<meta name="description" content="Profesionalni šlep i auto servis Nešo u Novoj Varoši. Dijagnostika, popravka motora i kočnica. Šlep služba 24/7. Pozovite 060 407 9069.">
+<meta name="keywords" content="šlep služba Nova Varoš, auto servis Nova Varoš, šlepovanje, vučna služba, dijagnostika vozila, zamena guma, popravka motora, popravka kočnica, Auto Servis Nešo">
 <meta name="author" content="Auto Servis Nešo">
+<link rel="canonical" href="https://auto-servis-neso.vercel.app/">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Šlep Služba - Auto Servis Nešo">
-<meta property="og:description" content="Šlepovanje 24/7 i profesionalan auto servis. Pozovite odmah za brzu pomoć na putu!">
+<meta property="og:title" content="Šlep Služba i Auto Servis Nešo - Nova Varoš">
+<meta property="og:description" content="Profesionalni šlep i auto servis Nešo u Novoj Varoši. Dijagnostika, popravka motora i kočnica. Šlep služba 24/7. Pozovite 060 407 9069.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://auto-servis-neso.vercel.app/">
+<meta property="og:site_name" content="Auto Servis Nešo">
+<meta property="og:locale" content="sr_RS">
+<meta property="og:image" content="https://auto-servis-neso.vercel.app/slike/hero-pozadina.png">
+<meta property="og:image:width" content="920">
+<meta property="og:image:height" content="636">
+<meta property="og:image:alt" content="Šlep vozilo Auto Servisa Nešo prevozi terensko vozilo kroz planinski predeo">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Šlep Služba i Auto Servis Nešo - Nova Varoš">
+<meta name="twitter:description" content="Profesionalni šlep i auto servis Nešo u Novoj Varoši. Dijagnostika, popravka motora i kočnica. Šlep služba 24/7. Pozovite 060 407 9069.">
+<meta name="twitter:image" content="https://auto-servis-neso.vercel.app/slike/hero-pozadina.png">
 
 <!-- Font Awesome CDN -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -23,21 +37,28 @@
 
 <link rel="stylesheet" href="css/style.css">
 
-<!-- Schema.org LocalBusiness -->
+<!-- Schema.org AutoRepair / LocalBusiness -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "AutoRepair",
   "name": "Auto Servis Nešo",
-  "image": "",
+  "image": "https://auto-servis-neso.vercel.app/slike/hero-pozadina.png",
+  "logo": "https://auto-servis-neso.vercel.app/logo/logo.jpg",
+  "url": "https://auto-servis-neso.vercel.app/",
   "telephone": "+381604079069",
   "email": "asneso90@gmail.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Ulica Primer 123",
-    "addressLocality": "Beograd",
-    "postalCode": "11000",
+    "streetAddress": "Kuburovina 33",
+    "addressLocality": "Nova Varoš",
+    "postalCode": "31320",
     "addressCountry": "RS"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.458507,
+    "longitude": 19.804627
   },
   "openingHoursSpecification": [
     {
@@ -51,11 +72,91 @@
       "dayOfWeek": "Saturday",
       "opens": "09:00",
       "closes": "15:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "00:00",
+      "closes": "23:59",
+      "description": "Šlep služba dostupna 24 sata, 7 dana u nedelji"
     }
   ],
   "priceRange": "$$",
-  "description": "Šlep služba dostupna 24/7 i auto servis - dijagnostika, zamena guma, popravka motora i kočnica.",
-  "areaServed": "Beograd i okolina"
+  "description": "Šlep služba dostupna 24/7 i auto servis u Novoj Varoši - dijagnostika, zamena guma, popravka motora i kočnica.",
+  "areaServed": {
+    "@type": "City",
+    "name": "Nova Varoš"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Usluge Auto Servisa Nešo",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Šlep služba 24/7" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Auto servis" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dijagnostika vozila" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Zamena guma" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Popravka motora" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Popravka kočnica" } }
+    ]
+  }
+}
+</script>
+
+<!-- Schema.org FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Da li šlep služba radi 24 sata, svaki dan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Da, naša šlep služba je dostupna 24 sata dnevno, 7 dana u nedelji, uključujući vikende i praznike. Pozovite nas u bilo koje doba i vozač će krenuti ka vama u najkraćem mogućem roku."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Koliko brzo stiže šlep vozilo na lice mesta?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "U zavisnosti od vaše lokacije i saobraćajne situacije, šlep vozilo obično stiže u roku od 20 do 40 minuta na području Nove Varoši i okoline."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Da li radite dijagnostiku svih marki vozila?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Da, naša kompjuterska dijagnostika pokriva sve marke i modele vozila, domaće i strane proizvodnje, uz savremenu opremu koja precizno očitava kvarove."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Da li auto servis radi vikendom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Auto servis radi subotom od 09:00 do 15:00 časova, dok je šlep služba dostupna i nedeljom, 24 sata dnevno."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Koliko košta šlepovanje vozila?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cena šlepovanja zavisi od udaljenosti i tipa vozila. Pozovite nas na +381 60 407 9069 za brzu i besplatnu procenu cene."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Da li vršite popravku motora i kočnica na licu mesta?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Manje intervencije i dijagnostiku možemo obaviti na terenu, dok se veći zahvati na motoru i kočionom sistemu rade u našem servisu uz odgovarajuću opremu."
+      }
+    }
+  ]
 }
 </script>
 </head>
@@ -65,7 +166,10 @@
 <header class="header" id="header">
   <div class="container header__inner">
     <a href="#pocetna" class="logo">
-      <img src="logo/logo.jpg" alt="Auto Servis Nešo logo" class="logo__img">
+      <picture>
+        <source srcset="logo/logo.webp" type="image/webp">
+        <img src="logo/logo.jpg" alt="Logo Auto Servisa Nešo - šlep služba i auto servis Nova Varoš" class="logo__img" width="365" height="325">
+      </picture>
     </a>
 
     <nav class="nav" id="nav">
@@ -74,6 +178,7 @@
         <li><a href="#onama" class="nav__link">O nama</a></li>
         <li><a href="#usluge" class="nav__link">Usluge</a></li>
         <li><a href="#galerija" class="nav__link">Galerija</a></li>
+        <li><a href="#faq" class="nav__link">Pitanja</a></li>
         <li><a href="#kontakt" class="nav__link">Kontakt</a></li>
       </ul>
       <a href="tel:+381604079069" class="btn btn--nav">
@@ -91,7 +196,10 @@
 
 <!-- HERO -->
 <section class="hero" id="pocetna">
-  <img src="slike/hero-pozadina.png" alt="Šlep vozilo Nešo na putu" class="hero__bg">
+  <picture>
+    <source srcset="slike/hero-pozadina.webp" type="image/webp">
+    <img src="slike/hero-pozadina.png" alt="Šlep vozilo Auto Servisa Nešo prevozi terensko vozilo kroz planinski predeo" class="hero__bg" width="920" height="636" fetchpriority="high">
+  </picture>
   <div class="hero__overlay"></div>
   <div class="container hero__content" data-aos>
     <h1 class="hero__title">Šlep Služba i Auto Servis Nešo — Brza Pomoć 24 Sata Dnevno</h1>
@@ -112,7 +220,10 @@
 <section class="about" id="onama">
   <div class="container about__inner">
     <div class="about__image" data-aos>
-      <img src="slike/o-nama.png" alt="Šlep vozilo Auto Servisa Nešo na terenu">
+      <picture>
+        <source srcset="slike/o-nama.webp" type="image/webp">
+        <img src="slike/o-nama.png" alt="Šlep vozilo Auto Servisa Nešo na terenu pored porodičnih kuća u Novoj Varoši" width="920" height="646" loading="lazy" decoding="async">
+      </picture>
     </div>
     <div class="about__text" data-aos>
       <span class="section__eyebrow">O nama</span>
@@ -175,32 +286,32 @@
       <div class="service-card" data-aos>
         <div class="service-card__icon"><i class="fa-solid fa-truck-pickup"></i></div>
         <h3>Šlepovanje 24/7</h3>
-        <p>Brza i pouzdana vučna služba dostupna u svako doba dana i noći, za sve tipove vozila.</p>
+        <p>Naša šlep služba u Novoj Varoši dostupna je 24 sata dnevno, svakog dana u nedelji, za sve vrste putničkih i teretnih vozila. Brzo stižemo na lice mesta, bilo da je u pitanju kvar, saobraćajna nezgoda ili zaglavljeno vozilo na terenu. Profesionalna oprema i iskusni vozači garantuju bezbedan transport vašeg vozila.</p>
       </div>
       <div class="service-card" data-aos>
         <div class="service-card__icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
         <h3>Auto servis</h3>
-        <p>Redovno održavanje, servisiranje i pregled vozila po fabričkim standardima.</p>
+        <p>U našem auto servisu u Novoj Varoši obavljamo redovno održavanje, servisiranje i tehnički pregled vozila po fabričkim standardima proizvođača. Koristimo originalne i kvalitetne zamenske delove kako bismo produžili vek trajanja vašeg vozila. Svaki servis prati transparentna cena i stručan savet mehaničara.</p>
       </div>
       <div class="service-card" data-aos>
         <div class="service-card__icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
         <h3>Dijagnostika</h3>
-        <p>Kompjuterska dijagnostika kvarova najsavremenijom opremom, brzo i precizno.</p>
+        <p>Kompjuterska dijagnostika vozila najsavremenijom opremom omogućava nam da brzo i precizno otkrijemo uzrok kvara, bez nepotrebnog gubljenja vremena. Dijagnostiku radimo za sve marke i modele automobila, domaće i strane proizvodnje. Na osnovu nalaza predlažemo najefikasnije i najisplativije rešenje.</p>
       </div>
       <div class="service-card" data-aos>
         <div class="service-card__icon"><i class="fa-solid fa-circle-notch"></i></div>
         <h3>Zamena guma</h3>
-        <p>Montaža, demontaža i balansiranje guma za putnička i teretna vozila.</p>
+        <p>Vršimo montažu, demontažu i balansiranje guma za putnička i teretna vozila, uz korišćenje profesionalne opreme. Savetujemo vas o pravilnom izboru letnjih i zimskih guma prema tipu vozila i uslovima vožnje. Usluga je brza, precizna i prilagođena vašem rasporedu.</p>
       </div>
       <div class="service-card" data-aos>
         <div class="service-card__icon"><i class="fa-solid fa-gears"></i></div>
         <h3>Popravka motora</h3>
-        <p>Kompletna dijagnostika i popravka motora, od manjih kvarova do generalnih remonta.</p>
+        <p>Naš tim izvodi kompletnu dijagnostiku i popravku motora, od manjih kvarova poput problema sa paljenjem do generalnih remonta. Svaka intervencija se radi pažljivo, uz upotrebu kvalitetnih delova i alata. Cilj nam je da vaše vozilo vratimo u pogon sigurno i pouzdano.</p>
       </div>
       <div class="service-card" data-aos>
         <div class="service-card__icon"><i class="fa-solid fa-compact-disc"></i></div>
         <h3>Popravka kočnica</h3>
-        <p>Provera, servisiranje i zamena kočionih sistema radi vaše maksimalne bezbednosti.</p>
+        <p>Redovna provera, servisiranje i zamena kočionih sistema ključni su za vašu bezbednost na putu, a mi to radimo brzo i stručno. Proveravamo kočione pločice, diskove, tečnost i celokupan sistem kočenja. Popravku kočnica preporučujemo kombinovati sa redovnim servisom vozila.</p>
       </div>
     </div>
   </div>
@@ -215,27 +326,27 @@
       <p class="section__desc">Pogledajte našu opremu, vozila i tim u akciji.</p>
     </div>
     <div class="gallery__grid">
-      <div class="gallery__item" data-aos><img src="slike/1/Untitled.jpg" alt="Šlep služba Nešo - galerija 1"></div>
-      <div class="gallery__item" data-aos><img src="slike/2/Untitled.jpg" alt="Šlep služba Nešo - galerija 2"></div>
-      <div class="gallery__item" data-aos><img src="slike/3/Untitled.png" alt="Šlep služba Nešo - galerija 3"></div>
-      <div class="gallery__item" data-aos><img src="slike/4/Untitled.png" alt="Šlep služba Nešo - galerija 4"></div>
-      <div class="gallery__item" data-aos><img src="slike/5/Untitled.png" alt="Šlep služba Nešo - galerija 5"></div>
-      <div class="gallery__item" data-aos><img src="slike/6/Untitled.png" alt="Šlep služba Nešo - galerija 6"></div>
-      <div class="gallery__item" data-aos><img src="slike/7/Untitled.png" alt="Šlep služba Nešo - galerija 7"></div>
-      <div class="gallery__item" data-aos><img src="slike/8/Untitled.png" alt="Šlep služba Nešo - galerija 8"></div>
-      <div class="gallery__item" data-aos><img src="slike/9/Untitled.png" alt="Šlep služba Nešo - galerija 9"></div>
-      <div class="gallery__item" data-aos><img src="slike/10/Untitled.png" alt="Šlep služba Nešo - galerija 10"></div>
-      <div class="gallery__item" data-aos><img src="slike/11/Untitled.png" alt="Šlep služba Nešo - galerija 11"></div>
-      <div class="gallery__item" data-aos><img src="slike/12/Untitled.png" alt="Šlep služba Nešo - galerija 12"></div>
-      <div class="gallery__item" data-aos><img src="slike/13/Untitled.png" alt="Šlep služba Nešo - galerija 13"></div>
-      <div class="gallery__item" data-aos><img src="slike/14/Untitled.png" alt="Šlep služba Nešo - galerija 14"></div>
-      <div class="gallery__item" data-aos><img src="slike/15/Untitled.png" alt="Šlep služba Nešo - galerija 15"></div>
-      <div class="gallery__item" data-aos><img src="slike/16/Untitled.jpg" alt="Šlep služba Nešo - galerija 16"></div>
-      <div class="gallery__item" data-aos><img src="slike/17/Untitled.jpg" alt="Šlep služba Nešo - galerija 17"></div>
-      <div class="gallery__item" data-aos><img src="slike/18/Untitled.jpg" alt="Šlep služba Nešo - galerija 18"></div>
-      <div class="gallery__item" data-aos><img src="slike/19/Untitled.jpg" alt="Šlep služba Nešo - galerija 19"></div>
-      <div class="gallery__item" data-aos><img src="slike/20/Untitled.jpg" alt="Šlep služba Nešo - galerija 20"></div>
-      <div class="gallery__item" data-aos><img src="slike/21/Untitled.jpg" alt="Šlep služba Nešo - galerija 21"></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/1/Untitled.webp" type="image/webp"><img src="slike/1/Untitled.jpg" alt="Šlep vozilo Auto Servisa Nešo prevozi automobil po snegu u brdovitom terenu" width="916" height="645" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/2/Untitled.webp" type="image/webp"><img src="slike/2/Untitled.jpg" alt="Šlepovanje putničkog vozila u naselju platformskim šlep vozilom Nešo" width="916" height="646" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/3/Untitled.webp" type="image/webp"><img src="slike/3/Untitled.png" alt="Šlep služba Nešo izvlači vozilo tokom zimskih uslova na putu" width="917" height="641" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/4/Untitled.webp" type="image/webp"><img src="slike/4/Untitled.png" alt="Šlep vozilo Auto Servisa Nešo na terenu pored porodičnih kuća" width="920" height="646" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/5/Untitled.webp" type="image/webp"><img src="slike/5/Untitled.png" alt="Prevoz velikih industrijskih rezervoara šlep vozilom Auto Servisa Nešo" width="917" height="640" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/6/Untitled.webp" type="image/webp"><img src="slike/6/Untitled.png" alt="Prevoz građevinskog materijala i drvene građe šlep vozilom Nešo" width="914" height="645" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/7/Untitled.webp" type="image/webp"><img src="slike/7/Untitled.png" alt="Šlep vozilo Nešo prevozi automobil kroz jesenju šumu" width="918" height="636" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/8/Untitled.webp" type="image/webp"><img src="slike/8/Untitled.png" alt="Prevoz poljoprivrednog traktora IMT šlep vozilom Auto Servisa Nešo" width="924" height="645" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/9/Untitled.webp" type="image/webp"><img src="slike/9/Untitled.png" alt="Šlep vozilo Auto Servisa Nešo prevozi terensko vozilo kroz planinski predeo" width="920" height="636" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/10/Untitled.webp" type="image/webp"><img src="slike/10/Untitled.png" alt="Šlepovanje vozila u seoskom naselju u okolini Nove Varoši" width="917" height="638" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/11/Untitled.webp" type="image/webp"><img src="slike/11/Untitled.png" alt="Prevoz traktora IMT 542 na platformi šlep vozila Nešo" width="916" height="640" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/12/Untitled.webp" type="image/webp"><img src="slike/12/Untitled.png" alt="Transport metalne poljoprivredne konstrukcije šlep vozilom u planinskom selu" width="909" height="633" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/13/Untitled.webp" type="image/webp"><img src="slike/13/Untitled.png" alt="Šlep vozilo Nešo transportuje metalnu konstrukciju uz planinski pašnjak" width="916" height="630" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/14/Untitled.webp" type="image/webp"><img src="slike/14/Untitled.png" alt="Prevoz metalne konstrukcije šlep vozilom Nešo na gradilištu u planini" width="914" height="637" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/15/Untitled.webp" type="image/webp"><img src="slike/15/Untitled.png" alt="Šlep vozilo Nešo prevozi automobil ulicama grada pored lokalnih radnji" width="513" height="645" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/16/Untitled.webp" type="image/webp"><img src="slike/16/Untitled.jpg" alt="Flota šlep vozila Nešo prevozi kombi vozila u večernjim satima" width="633" height="465" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/17/Untitled.webp" type="image/webp"><img src="slike/17/Untitled.jpg" alt="Šlep prikolica Nešo vuče putničko vozilo pored terenca na benzinskoj stanici" width="633" height="465" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/18/Untitled.webp" type="image/webp"><img src="slike/18/Untitled.jpg" alt="Vučenje vozila na prikolici pored stambenih zgrada - usluga šlepovanja Nešo" width="633" height="465" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/19/Untitled.webp" type="image/webp"><img src="slike/19/Untitled.jpg" alt="Šlep prikolica Nešo transportuje terensko vozilo po kišnom danu" width="633" height="469" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/20/Untitled.webp" type="image/webp"><img src="slike/20/Untitled.jpg" alt="Šlep služba Nešo prevozi oštećeno vozilo sa parkinga u naselju" width="633" height="469" loading="lazy" decoding="async"></picture></div>
+      <div class="gallery__item" data-aos><picture><source srcset="slike/21/Untitled.webp" type="image/webp"><img src="slike/21/Untitled.jpg" alt="Noćno šlepovanje vozila na planinskom putu - Auto Servis Nešo" width="633" height="473" loading="lazy" decoding="async"></picture></div>
     </div>
   </div>
 </section>
@@ -278,11 +389,51 @@
     </div>
 </section>
 
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section__header" data-aos>
+      <span class="section__eyebrow">Pitanja i odgovori</span>
+      <h2 class="section__title">Često Postavljana Pitanja</h2>
+      <p class="section__desc">Odgovori na najčešća pitanja o šlep službi i auto servisu Nešo u Novoj Varoši.</p>
+    </div>
+    <div class="faq__list" data-aos>
+      <details class="faq__item">
+        <summary>Da li šlep služba radi 24 sata, svaki dan?</summary>
+        <p>Da, naša šlep služba je dostupna 24 sata dnevno, 7 dana u nedelji, uključujući vikende i praznike. Pozovite nas u bilo koje doba i vozač će krenuti ka vama u najkraćem mogućem roku.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Koliko brzo stiže šlep vozilo na lice mesta?</summary>
+        <p>U zavisnosti od vaše lokacije i saobraćajne situacije, šlep vozilo obično stiže u roku od 20 do 40 minuta na području Nove Varoši i okoline.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Da li radite dijagnostiku svih marki vozila?</summary>
+        <p>Da, naša kompjuterska dijagnostika pokriva sve marke i modele vozila, domaće i strane proizvodnje, uz savremenu opremu koja precizno očitava kvarove.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Da li auto servis radi vikendom?</summary>
+        <p>Auto servis radi subotom od 09:00 do 15:00 časova, dok je šlep služba dostupna i nedeljom, 24 sata dnevno.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Koliko košta šlepovanje vozila?</summary>
+        <p>Cena šlepovanja zavisi od udaljenosti i tipa vozila. Pozovite nas na +381 60 407 9069 za brzu i besplatnu procenu cene.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Da li vršite popravku motora i kočnica na licu mesta?</summary>
+        <p>Manje intervencije i dijagnostiku možemo obaviti na terenu, dok se veći zahvati na motoru i kočionom sistemu rade u našem servisu uz odgovarajuću opremu.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer class="footer">
   <div class="container footer__inner">
     <div class="footer__col">
-      <img src="logo/logo.jpg" alt="Auto Servis Nešo logo" class="logo__img logo__img--footer">
+      <picture>
+        <source srcset="logo/logo.webp" type="image/webp">
+        <img src="logo/logo.jpg" alt="Logo Auto Servisa Nešo - šlep služba i auto servis Nova Varoš" class="logo__img logo__img--footer" width="365" height="325" loading="lazy" decoding="async">
+      </picture>
       <p>Šlep služba i auto servis kojima možete verovati. Dostupni 24/7 za sve vaše hitne slučajeve na putu.</p>
     </div>
 
@@ -293,6 +444,7 @@
         <li><a href="#onama">O nama</a></li>
         <li><a href="#usluge">Usluge</a></li>
         <li><a href="#galerija">Galerija</a></li>
+        <li><a href="#faq">Pitanja</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
       </ul>
     </div>
@@ -313,7 +465,7 @@
       <ul>
         <li><a href="tel:+381604079069"><i class="fa-solid fa-phone"></i> +381 60 407 90 69</a></li>
         <li><a href="mailto:asneso90@gmail.com"><i class="fa-solid fa-envelope"></i> asneso90@gmail.com</a></li>
-        <li><i class="fa-solid fa-location-dot"></i> Ulica Primer 123, Beograd</li>
+        <li><i class="fa-solid fa-location-dot"></i> Kuburovina 33, Nova Varoš</li>
         <li><i class="fa-solid fa-clock"></i> Šlep 24/7 | Servis Pon-Pet 08-20, Sub 09-15</li>
       </ul>
     </div>

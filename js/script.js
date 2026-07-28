@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.querySelectorAll('.gallery__item img').forEach(function (img) {
     img.addEventListener('click', function () {
-      openLightbox(img.src, img.alt);
+      openLightbox(img.currentSrc || img.src, img.alt);
     });
   });
 
